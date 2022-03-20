@@ -68,7 +68,8 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .thumbnail{
-    width: 100%;
+    width: 98%;
+    height: 98%;
 }
 
 #stat_bar{
