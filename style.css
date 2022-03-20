@@ -1,10 +1,66 @@
-h2{
-    color: red;
+#top{
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+    height: 50px;
+
+    border-bottom: solid gray 0.1px;
+    margin-bottom: 10px;
+}
+
+#top img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    height: 100%;
+    object-fit: contain;
+}
+
+#top input{
+    height: 60%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: rgb(255, 250, 250);
+
+    border: solid gray 1px;
+    border-radius: 3px;
+    
+    font-size: 10px;
+    font-weight: 100;
 }
 
 #profile{
-    border: solid;
-    border-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#profile_info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 50px;
+}
+
+#id{
+    font-size: 18px;
+    font-weight: 100;
+
+    margin-bottom: 5px;
+}
+
+button{
+    height: 95%;
+    width: 60%;
+
+    font-size: 10px;
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 3px;
+
 }
 
 .thumbnail_grid{
@@ -40,13 +96,13 @@ h2{
 }
 
 #profile_pic{
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
 }
 
 .highlight_pic{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 
     margin-left: auto;
     margin-right: auto;
@@ -59,3 +115,4 @@ h2{
 .highlight{
     text-align: center;
 }
+
