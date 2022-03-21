@@ -25,6 +25,8 @@
     margin-top: auto;
     margin-bottom: auto;
 
+    text-align: center;
+
     background-color: rgb(255, 250, 250);
 
     border: solid gray 1px;
@@ -32,6 +34,20 @@
     
     font-size: 10px;
     font-weight: 100;
+}
+
+i{
+    color: gray;
+    opacity: 70%;
+}
+
+#top i{
+    font-size: 20px;
+}
+
+#top div{
+    text-align: center;
+    padding-top: 13px;
 }
 
 #profile{
@@ -68,8 +84,8 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .thumbnail{
-    width: 98%;
-    height: 98%;
+    width: 98.5%;
+    height: 98.5%;
 }
 
 #stat_bar{
@@ -117,3 +133,17 @@ button{
     text-align: center;
 }
 
+#sub_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+
+    height: 40px;
+}
+
+.selected{
+    border-bottom: solid black 3px;
+}
